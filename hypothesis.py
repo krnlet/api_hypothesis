@@ -86,7 +86,7 @@ def delete_annotation(ids):
     return(trash)
 
 def pdfread(url, words):
-    url = 'http://course.sdu.edu.cn/G2S/eWebEditor/uploadfile/'+url
+    url = 'https://www.researchgate.net/profile/Sebastian-Mach/publication/328439658_Quantified_Factory_Worker_-_Expert_Evaluation_and_Ethical_Considerations_of_Wearable_Self-tracking_Devices/links/5bd1a7e792851cabf2665b69/Quantified-Factory-Worker-Expert-Evaluation-and-Ethical-Considerations-of-Wearable-Self-tracking-Devices.pdf'+url
     response = requests.get(url)
     my_raw_data = response.content
 
